@@ -7,18 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="slxue-member" />
+        <module name="slxue-question" />
         <module name="slxue-context" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="slxue" target="11" />
       <module name="slxue-context" target="11" />
       <module name="slxue-member" target="11" />
+      <module name="slxue-question" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="slxue-context" options="-parameters" />
       <module name="slxue-member" options="-parameters" />
+      <module name="slxue-question" options="-parameters" />
     </option>
   </component>
 </project>
