@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
       <module fileurl="file://$PROJECT_DIR$/renren-generator/renren-generator.iml" filepath="$PROJECT_DIR$/renren-generator/renren-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/slxue.iml" filepath="$PROJECT_DIR$/.idea/slxue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slxue-common/slxue-common.iml" filepath="$PROJECT_DIR$/slxue-common/slxue-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/slxue-context/slxue-context.iml" filepath="$PROJECT_DIR$/slxue-context/slxue-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slxue-gateway/slxue-gateway.iml" filepath="$PROJECT_DIR$/slxue-gateway/slxue-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/slxue-member/slxue-member.iml" filepath="$PROJECT_DIR$/slxue-member/slxue-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/slxue-question/slxue-question.iml" filepath="$PROJECT_DIR$/slxue-question/slxue-question.iml" />
     </modules>

@@ -1,0 +1,35 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      routes:
+        - id: cms-route
+          uri: lb://context
+          predicates:
+            - Path=/context/**
+          filters:
+            - RewritePath=/(?<segment>.*),/$\{segment}
+        - id: qms-route # \u9898\u76EE\u5FAE\u670D\u52A1\u8DEF\u7531
+          uri: lb://question
+          predicates:
+            - Path=/question/**
+          filters:
+            - RewritePath=/(?<segment>.*),/$\{segment}
+        - id: ums-route # \u7528\u6237\u5FAE\u670D\u52A1\u8DEF\u7531
+          uri: lb://member
+          predicates:
+            - Path=/member/**
+          filters:
+            - RewritePath=/(?<segment>.*),/$\{segment}
+        - id: renrenfast-route # \u4EBA\u4EBA\u540E\u53F0\u670D\u52A1\u8DEF\u7531
+          uri: lb://renren-fast
+          predicates:
+            - Path=/renren-fast/**
+          filters:
+            - RewritePath=/renren-fast/(?<segment>.*),/renren-fast/$\{segment}
+  application:
+    name: gateway

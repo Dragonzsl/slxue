@@ -8,8 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="slxue-question" />
-        <module name="renren-fast" />
+        <module name="slxue-common" />
         <module name="slxue-member" />
+        <module name="slxue-gateway" />
+        <module name="renren-fast" />
         <module name="slxue-context" />
         <module name="renren-generator" />
       </profile>
@@ -18,7 +20,9 @@
       <module name="renren-fast" target="11" />
       <module name="renren-generator" target="11" />
       <module name="slxue" target="11" />
+      <module name="slxue-common" target="11" />
       <module name="slxue-context" target="11" />
+      <module name="slxue-gateway" target="11" />
       <module name="slxue-member" target="11" />
       <module name="slxue-question" target="11" />
     </bytecodeTargetLevel>
@@ -28,6 +32,7 @@
       <module name="renren-fast" options="-parameters" />
       <module name="renren-generator" options="-parameters" />
       <module name="slxue-context" options="-parameters" />
+      <module name="slxue-gateway" options="-parameters" />
       <module name="slxue-member" options="-parameters" />
       <module name="slxue-question" options="-parameters" />
     </option>

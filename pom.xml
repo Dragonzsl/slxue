@@ -12,6 +12,9 @@
         <module>slxue-context</module>
         <module>slxue-member</module>
         <module>slxue-question</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>slxue-common</module>
     </modules>
 
 
